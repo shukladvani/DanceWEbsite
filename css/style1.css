@@ -1,0 +1,259 @@
+body{
+    display: block;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: white;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #683aa4;
+}
+
+nav ul li a{
+    color: #a9a9a9;
+    font-size: 16px;
+    margin: auto 10px; 
+}
+
+nav ul li a:hover{
+    color: #683aa4;
+}
+.nav-item a:hover{
+    color: #e2001a;
+}
+
+#carousel-example-generic{
+    background: rgba(0, 0, 0, 0) url("/images/banner.jpg") no-repeat scroll center top / cover ;
+    height: 700px;
+    position: relative;
+    
+   
+}
+
+#about img{
+   width: 100%;
+    height: 100vh;
+}
+
+.para{
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 12px;
+    max-height: 15em;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+.copyright{
+    text-align: center;
+    color:#fff;
+    padding: 15px 0;
+    font-size: 13px;
+}
+.copyright a{
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+.copyright a:hover{
+    color: #1F1B18 !important;
+}
+.bgcolor-red{
+    background: #e2001a;
+}
+.contact-box{
+    color:#fff;
+}
+.email-banner{
+    background: rgba(0, 0, 0, 0) url("../images/email-banner.jpg") no-repeat scroll 0 0 / cover ;
+    min-height: 120px;
+}
+.contact-list a {
+    display: block;
+}
+.contact-list h3 {
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+.contact-list {
+    padding: 28px;
+}
+.left-box > p, .right-box a, .contact-list a{
+    font-size: 13px;
+    line-height: 22px;
+}
+.right-box a:hover, .contact-list a:hover, .site-btn3:hover{
+    color: #e2001a;
+}
+.contact-form{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+.contact-form .form-control {
+    background: rgba(255, 255, 255, 0.15) none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: none 0s ease 0s ;
+    width: 100%;
+}
+.contact-form textarea{
+    height: 150px !important;
+}
+.contact-form .form-control::-moz-placeholder {
+    color: #fff;
+    font-weight: 400;
+    opacity: 1;
+}
+.contact-form .form-control::-webkit-input-placeholder{
+    color: #fff;
+    font-weight: 400;
+    opacity: 1;
+}
+.contact-menu .site-btn3:last-child{
+    margin-right: 0px;
+}
+.social-icon-list {
+    margin-top: 50px;
+    text-align: center;
+}
+.social-icon-list li {
+    display: inline;
+}
+.social-icon-list a{
+    background: rgba(255, 255, 255, 0.15) none repeat scroll 0 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 10px;
+    width: 50px;
+}
+.social-icon-list a:hover{
+    background: #e2001a;
+    border-color: #e2001a;
+}
+.paddingTop-80{
+    padding-top: 80px;
+}
+.paddingbottom-80 {
+    padding-bottom: 80px;
+}
+.no-padding {
+    padding: 0;
+}
+textarea:focus, input:focus, select:focus, select:active{
+    outline: none;
+    box-shadow:none;
+}
+.form-control:focus {
+    box-shadow: none;
+    outline: 0 none;
+}
+textarea:focus,textArea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+    border-color: none;
+    box-shadow: none !important;
+    outline: 0 none;
+    border-color: #000 !important;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.bgcolor-blue {
+    background: #1F1B18;
+}
+
+.right-box a, .contact-list a {
+    font-size: 13px;
+    line-height: 22px;
+}
+.contact-list a {
+    display: block;
+}
+
+a {
+    color: inherit;
+}
+
+.map iframe{
+    width:100%;
+    height: 400px;
+}
+.contact-box{
+    color:#fff;
+}
+.email-banner{
+    background: rgba(0, 0, 0, 0) url("../images/email-banner.jpg") no-repeat scroll 0 0 / cover ;
+    min-height: 120px;
+}
+.contact-list a {
+    display: block;
+}
+.contact-list h3 {
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+.contact-list {
+    padding: 28px;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.right-box a:hover{
+    color: #fff;
+}
+.right-box a{
+    color: #fff;
+    text-decoration: none;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+
