@@ -32,7 +32,7 @@ nav ul li a:hover{
 }
 
 #carousel-example-generic{
-    background: rgba(0, 0, 0, 0) url("./images/banner.jpg") no-repeat scroll center top / cover ;
+    background: rgba(0, 0, 0, 0) url("../images/banner.jpg") no-repeat scroll center top / cover ;
     height: 700px;
     position: relative;
     
